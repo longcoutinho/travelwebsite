@@ -31,6 +31,23 @@
           behavior: 'smooth'
         });
       }
+
+      function hiddenbacktohome(){
+        if ((document.body.scrollTop >= 29 || document.documentElement.scrollTop >= 29)) {
+          var x = document.getElementById('back-to-home');
+          if (x!=null) {
+            x.style.display = 'flex';
+          }
+        }
+        else {
+          var x = document.getElementById('back-to-home');
+          if (x!=null) {
+            x.style.display = 'none';
+          }
+        }
+      }
+
+      window.onscroll = function(){hiddenbacktohome()};
     </script>
     <div id="headers">
       <div id="headericons">
