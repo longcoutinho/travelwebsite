@@ -1,0 +1,119 @@
+#choose-your-dream-destinations {
+    position: absolute;
+    top: 2069px;  
+    width: 100%;
+    height: 2239px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#p-choose-your-dream-destinations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 565px;
+    text-align: center;
+}
+
+#p-choose-your-dream-destinations > p:first-child {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #333333;
+}
+
+#p-choose-your-dream-destinations > p:nth-child(2) {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #333333;
+    margin-top: 25px;
+}
+
+#list-of-destinations {
+    position: absolute;
+    top: 287px;
+    width: 100%;
+    height: 1948px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item-destinations {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.item-destinations:hover .items-destinations-content{
+    height: 100%;
+    transition-duration: 0.4s;
+}
+
+#list-of-destinations > div:nth-child(1) {
+    background-image: url(item1-destinations.jpg);
+    background-size: 100% 100%;
+}
+
+#list-of-destinations > div:nth-child(2) {
+    background-image: url(item2-destinations.jpg);
+    background-size: 100% 100%;
+}
+
+#list-of-destinations > div:nth-child(3) {
+    background-image: url(item3-destinations.jpg);
+    background-size: 100% 100%;
+}
+
+#list-of-destinations > div:nth-child(4) {
+    background-image: url(item4-destinations.jpg);
+    background-size: 100% 100%;
+}
+
+.items-destinations-content {
+    position: relative;
+    width: 100%;
+    height: 37%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition-duration: 0.3s;
+}
+
+.p-items-destinations {
+    position: absolute;
+    top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.p-items-destinations > p:first-child {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.p-items-destinations > p:first-child::after {
+    content: "";
+    position: absolute;
+    top: 36px;
+    left: 285px;
+    width: 70px;
+    height: 0px;
+    border-top: 1px solid white;
+}
+
+.p-items-destinations > p:nth-child(2) {
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 35px;
+}
