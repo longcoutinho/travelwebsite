@@ -118,7 +118,7 @@
 
 }
 
-#view-all-tours > button {
+.button-in-site > button {
     width: 142px;
     height: 37px;
     background-color: #52E0E4;
@@ -127,21 +127,21 @@
     border-radius: 25px;
 }
 
-#view-all-tours > button:hover {
+.button-in-site > button:hover {
     cursor: pointer;
 }
 
-#view-all-tours > button:hover * {
+.button-in-site > button:hover * {
     color: red;
 }
 
-#view-all-tours > button > a {
+.button-in-site > button > a {
     color: white;
     font-size: 15px;
     font-weight: 400;
 }
 
-#view-all-tours > button > i {
+.button-in-site > button > i {
     color: white;
     font-size: 15px;
 }
