@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="top-recommended-tours.css" />
   <link rel="stylesheet" href="choose-your-dream-destinations.css" />
   <link rel="stylesheet" href="choose-your-travel-styles.css" />
+  <link rel="stylesheet" href="what-our-customers-say.css" />
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
@@ -201,21 +202,21 @@
           <a href="http://bespoke.demo.123corp.vn/travel-blog">TRAVEL BLOG</a>
         </li>
       </ul>
-      <div class="swiper-container">
-        <div class="swiper-wrapper">
-          <div id="background1" class="swiper-slide">
+      <div class="swiper-container swiper-container1">
+        <div class="swiper-wrapper swiper-wrapper1">
+          <div id="background1" class="swiper-slide swiper-slide1">
             <p id="pbanner-1">TRUST BESPOKE VIETNAM TOUR</p>
             <h3>
               Tailor-made Luxury Trips to Vietnam, Cambodia, Laos and Myanmar
             </h3>
           </div>
-          <div id="background2" class="swiper-slide">
+          <div id="background2" class="swiper-slide swiper-slide1">
             <p>IMMERSE YOURSELF IN EXTRAORDINARY NATURE</p>
           </div>
-          <div id="background3" class="swiper-slide">
+          <div id="background3" class="swiper-slide swiper-slide1">
             <p>DISCOVER THE IVERSITY OF THE CULTURES</p>
           </div>
-          <div id="background4" class="swiper-slide">
+          <div id="background4" class="swiper-slide swiper-slide1">
             <p>LEARN ABOUT THE HISTORY OF THE REGION</p>
           </div>
         </div>
@@ -469,6 +470,64 @@
         </div>
       </div>    
     </div>
+
+    <div class="what-our-customers-say">
+      <img src="bg-customers.jpg" alt="Khong the hien thi">
+      <div class="title-what-our-customers-say">
+        <p>What Our Customers Say</p>
+        <p>We love helping our customers find the perfect destination for their next vacation, and we love hearing about their travel experiences. Discover some of the wonderful times our clients have had working with Bespoke Vietnam Tours. Take a look at their testimonials below, and learn how we’ve helped them explore the world.</p>
+      </div>
+      <div class="content-what-our-customers-say">
+        <div class="swiper-container swiper-container2">
+          <div class="swiper-wrapper swiper-wrapper2">
+            <div class="swiper-slide swiper-slide2">
+              <div class="avatar-and-name">
+                <img src="rebecca.jpg" alt="Khong the hien thi">
+                <p>Jennifer Whitehead</p>
+                <p> - Australia</p>
+              </div>
+              <p>The tour ogransied by Bespoke Vietnam Tours exceeded my expectations! From start to finish everything was planned expertly and never missed a beat, all the tour guides and companies they chose were excellent and made the experience that much better. Hotels were also excellent and provided amazing customer service!<br>
+              I couldn't thank you enough for making our trip so wonderful. We had beautiful memories to bring back home. I highly recommend Bespoke Vietnam Tours to anyone who is lookig for a trip to Vietnam and Cambodia!</p>
+            </div>
+            <div class="swiper-slide swiper-slide2">
+              <div class="avatar-and-name">
+                <img src="beckylea.jpg" alt="Khong the hien thi">
+                <p>Becky Lea</p>
+                <p> - Australia</p>
+              </div>
+              <p>We had 14 days Vietnam - Cambodia tailor-made package organised by Bespoke Vietnam Tours. From the first email to the end of the trip, everything was perfect. The tour guides, hotels, meals arranged were amazing and we had a fabulous time in both countries. We visited Ha Long Bay, Hanoi, Hoi An, Ho Chi Minh City, Mekong Delta, Phnom Penh and Siem Reap. We couldn't believe that we could do that much within 2 weeks, especially when our group was 20 people with different interests and needs. The trip really brought us together and we had incredible memories. Special thanks to Alice and the team at BVT for making our trip so wonderful.</p>
+            </div>
+            <div class="swiper-slide swiper-slide2">
+              <div class="avatar-and-name">
+                <img src="Jessie.jpg" alt="Khong the hien thi">
+                <p>Jessie Franks</p>
+                <p> - United Kingdom</p>
+              </div>
+              <p>Your professionalism and efficiency were comforting and reassuring in any weather and environment. Everyone in the team knows how to do their work. Every suggestion your staff made was excellent, as you considered my travel budget, time constraints, and personal likes and dislikes. The trip was filled with great memories and fun while we learnt a lot about Vietnam (history, culture, nature and especially the people).<br>
+                I would definitely work with Bespoke Vietnam Tours again, especially with Alice, as she made my trip easy and stress-free. It was a real delight to work with you.</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <script>
+          var swiper = new Swiper(".swiper-container2", {
+            slidesPerView: 2,
+            spaceBetween: 30,
+            loop: true,
+            autoplay: {
+              delay: 5000,
+              disableOnInteraction: false,
+            },
+            pagination: {
+              el: '.swiper-pagination',
+              clickable: true,
+            },
+          });
+        </script>
+      </div>
+    </div>
+
+    
   </div>
 </body>
 
